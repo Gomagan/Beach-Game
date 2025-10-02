@@ -44,11 +44,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (_isGrounded)
         {
-            _rb.drag = groundDrag;
+            _rb.linearDamping = groundDrag;
         }
         else
         {
-            _rb.drag = 0;
+            _rb.linearDamping = 0;
         }
     }
 
@@ -72,13 +72,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void SpeedControl()
     {
-        Vector3 flatVelocity = new Vector3(_rb.velocity.x, 0, _rb.velocity.z);
+        Vector3 flatVelocity = new Vector3(_rb.linearVelocity.x, 0, _rb.linearVelocity.z);
         
         // limit velocity if needed
         if (flatVelocity.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVelocity.normalized * moveSpeed;
-            _rb.velocity = new Vector3(limitedVel.x, _rb.velocity.y, limitedVel.z);
+            _rb.linearVelocity = new Vector3(limitedVel.x, _rb.linearVelocity.y, limitedVel.z);
         }
     }
 }
