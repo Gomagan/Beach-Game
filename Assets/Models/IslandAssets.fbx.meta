@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 34e2193d348305d45a2f9ea37703d625
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Coconut_Base_color
+    second: {fileID: 2800000, guid: 8c478b57b348c444c872dc2d45a1fa71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Coconut_Metallic
+    second: {fileID: 2800000, guid: 3b3542bae7864354ca0b333d720d27ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Coconut_Normal
+    second: {fileID: 2800000, guid: 065a638131f3b164a8fe6b8269a6ce77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Coconut_Roughness
+    second: {fileID: 2800000, guid: ae5380621152280449548ec06cb912b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabBody_Base_color
+    second: {fileID: 2800000, guid: c3aa14f3a2070594394c6a6dbb0e3b90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabBody_Metallic
+    second: {fileID: 2800000, guid: b81afee1cd97d1b41ad82dc5a926b61a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabBody_Normal
+    second: {fileID: 2800000, guid: 7e89df240b912234b986a70ab53a6e16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabBody_Roughness
+    second: {fileID: 2800000, guid: e0ccf64fff562eb4691a19614930bebc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabEyes_Base_color
+    second: {fileID: 2800000, guid: 93e107cd7f45bb348be7fd040f539866, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabEyes_Metallic
+    second: {fileID: 2800000, guid: aff2ae4de51e42642afb62199481810b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabEyes_Normal
+    second: {fileID: 2800000, guid: a93d65e4c6441804fb1f56f2bd8080fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CrabEyes_Roughness
+    second: {fileID: 2800000, guid: 26106dbb576fd9d468cf00dc410c3c4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeBark_Base_color
+    second: {fileID: 2800000, guid: b1a85dcc052610b46bc5a24269b032aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeBark_Metallic
+    second: {fileID: 2800000, guid: f41acd6ddc67b32438d673e8d44cbd6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeBark_Normal
+    second: {fileID: 2800000, guid: a97d3021a3afc4646afdb51febb37e3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeBark_Roughness
+    second: {fileID: 2800000, guid: 5cc1b681dff553840892703f69982f7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeLeaves_Base_color
+    second: {fileID: 2800000, guid: 2b0bf04fac1d2a545a2dff3b8f7aeb1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeLeaves_Metallic
+    second: {fileID: 2800000, guid: 801746f87cc7da344bcb702a02165322, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeLeaves_Normal
+    second: {fileID: 2800000, guid: c941d89a5acdf2d4d8fd8911f3f8157a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PalmTreeLeaves_Roughness
+    second: {fileID: 2800000, guid: 77bec64ba5420a840aa7cc45caa1b0e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock_Base_color
+    second: {fileID: 2800000, guid: 4480b944ca1bd8f429c15cfd38aaff53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock_Metallic
+    second: {fileID: 2800000, guid: 207bae22e94c3214a911e51a5f2b73c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock_Normal
+    second: {fileID: 2800000, guid: 22c28ea49debe26478cb0d5c4fbf65b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock_Roughness
+    second: {fileID: 2800000, guid: 1f67f34d986a03c4da0dca138f89cbc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_Base_color
+    second: {fileID: 2800000, guid: b1310b8e9f728fa4880541954357a6dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_Metallic
+    second: {fileID: 2800000, guid: 4a5132bb4048eb04d87910a9586bee7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_Normal
+    second: {fileID: 2800000, guid: 93eec73eda30175488950e093bda6b0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sand_Roughness
+    second: {fileID: 2800000, guid: bcb6a0eab682c864ba8cd00a11df95c5, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
