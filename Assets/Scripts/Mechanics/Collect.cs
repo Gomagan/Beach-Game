@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class Collect : MonoBehaviour
 {
-    LayerMask _layerMask;
+    public Buttons buttons;
+
+    public GameObject checkList;
     void Start()
-    {  
-        _layerMask = LayerMask.GetMask("Ground");
+    {
+        if (buttons.isGame == true)
+        {
+            checkList.SetActive(true);
+        }
     }
 
     void Update()
