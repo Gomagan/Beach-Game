@@ -1263,6 +1263,7 @@ MonoBehaviour:
   playerCamera: {fileID: 412096305}
   player: {fileID: 1397380092}
   Menu: {fileID: 1339244169}
+  isGame: 0
 --- !u!1 &472481014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4483,7 +4484,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3986188387995331715, guid: 34e2193d348305d45a2f9ea37703d625, type: 3}
+  - {fileID: 2100000, guid: 4436c1556699d7d428c7e0598e5456b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5266,7 +5267,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f40e9e7a886724c45b1470b44e8701d9, type: 2}
+  - {fileID: 2100000, guid: f1cabcfdb7e74fa4e8608bd9f965f765, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5314,7 +5315,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 802975f0fc194094a9f83d2698ee8897, type: 2}
+  - {fileID: 2100000, guid: 4622d6e692c783f478ede5b2cb9bdcc5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
