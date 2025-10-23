@@ -12,16 +12,11 @@ public class Buttons : MonoBehaviour
 
     public void Play()
     {
-        // isGame = true;
-        // FreeRoam();
+        SceneManager.LoadScene("Gameplay");
     }
     
     public void FreeRoam()
     {
         SceneManager.LoadScene("Freeroam");
-        // Menu.SetActive(false);
-        // moveingCamera.SetActive(false);
-        // playerCamera.SetActive(true);
-        // player.SetActive(true);
     }
 }

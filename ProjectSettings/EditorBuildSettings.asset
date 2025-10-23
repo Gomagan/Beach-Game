@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Freeroam.unity
     guid: e344d99f5892ce140a32852bb7edb3b5
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 3abe8a695116fa047b4888769424a28d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
