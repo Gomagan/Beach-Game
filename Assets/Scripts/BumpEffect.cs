@@ -4,12 +4,12 @@ public class BumpEffect : MonoBehaviour
 {
     public Material bumpMaterial;
 
-    private bool _isOn = true;
+    private float _isOn = 1;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        bumpMaterial.EnableKeyword("_Bump?_ON");
+        bumpMaterial.SetFloat("_Bump", _isOn);
     }
 
     // Update is called once per frame
@@ -17,18 +17,8 @@ public class BumpEffect : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            print("R");
-            if (_isOn)
-            {
-                bumpMaterial.EnableKeyword("_Bump?_OFF");
-                _isOn = false;
-            }
-            else
-            {
-                bumpMaterial.EnableKeyword("_Bump?_ON");
-                _isOn = false;
-            }
-            
+            _isOn = 1 - _isOn;
+            bumpMaterial.SetFloat("_Bump", _isOn);
         }
     }
 }
