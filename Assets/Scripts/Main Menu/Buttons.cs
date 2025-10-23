@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
@@ -11,15 +12,16 @@ public class Buttons : MonoBehaviour
 
     public void Play()
     {
-        isGame = true;
-        FreeRoam();
+        // isGame = true;
+        // FreeRoam();
     }
     
     public void FreeRoam()
     {
-        Menu.SetActive(false);
-        moveingCamera.SetActive(false);
-        playerCamera.SetActive(true);
-        player.SetActive(true);
+        SceneManager.LoadScene("Freeroam");
+        // Menu.SetActive(false);
+        // moveingCamera.SetActive(false);
+        // playerCamera.SetActive(true);
+        // player.SetActive(true);
     }
 }
