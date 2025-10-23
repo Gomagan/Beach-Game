@@ -3,7 +3,6 @@ using UnityEngine;
 public class ColorGradingCamera : MonoBehaviour
 {
     public Material lutMaterial; 
-    public Shader colorGradingShader;
 
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
