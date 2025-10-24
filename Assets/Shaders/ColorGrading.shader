@@ -9,6 +9,7 @@ Shader "Custom/URP_LUTColorGrading"
 
     SubShader
     {
+        // Makes sure the effect is shown
         Cull Off ZWrite Off ZTest Always
 
         Pass
@@ -16,8 +17,11 @@ Shader "Custom/URP_LUTColorGrading"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+
+            // Uses unity built in shader
             #include "UnityCG.cginc"
 
+            // Defines how many colors is on out LUT
             #define COLORS 32.0
 
             struct appdata
@@ -32,9 +36,10 @@ Shader "Custom/URP_LUTColorGrading"
                 float4 vertex : SV_POSITION;
             };
 
+            
             sampler2D _MainTex;
             sampler2D _LUT;
-            float4 _LUT_TexelSize;
+            float4 _LUT_TexelSize; // Dimensions of the texture
             float _Contribution;
 
             v2f vert(appdata v)
@@ -49,7 +54,7 @@ Shader "Custom/URP_LUTColorGrading"
             {
                 fixed4 col = saturate(tex2D(_MainTex, i.uv));
 
-                float maxColor = COLORS - 1.0;
+                float maxColor = COLORS - 1.0; // Value of the numbers of colors
                 float halfColX = 0.5 / _LUT_TexelSize.z;
                 float halfColY = 0.5 / _LUT_TexelSize.w;
                 float threshold = maxColor / COLORS;
