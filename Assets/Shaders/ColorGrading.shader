@@ -52,21 +52,32 @@ Shader "Custom/URP_LUTColorGrading"
 
             fixed4 frag(v2f i) : SV_Target
             {
+                // Get the color from the main image at this pixel
                 fixed4 col = saturate(tex2D(_MainTex, i.uv));
 
-                float maxColor = COLORS - 1.0; // Value of the numbers of colors
+                // The LUT has 32 slices
+                float maxColor = COLORS - 1.0;
+
+                // Sample from the middle of LUT
                 float halfColX = 0.5 / _LUT_TexelSize.z;
                 float halfColY = 0.5 / _LUT_TexelSize.w;
+
+                // Each slice covers 1/32 of the LUT
                 float threshold = maxColor / COLORS;
 
+                // Find the pixel’s position inside the LUT:. Red moves along the x axis inside the slice and green moves along the y axis.
                 float xOffset = halfColX + col.r * threshold / COLORS;
                 float yOffset = halfColY + col.g * threshold;
                 float cell = floor(col.b * maxColor);
 
+                // Turn that 3D color position into 2D UVs for the LUT texture
                 float2 lutPos = float2(cell / COLORS + xOffset, yOffset);
+
+                // Sample the color from the LUT using those UVs
                 float4 gradedCol = tex2D(_LUT, lutPos);
 
-                return lerp(col, gradedCol, _Contribution);
+                // Blend between the original color and the LUT color
+                return lerp(col, gradedCol, _Contribution); // _Contribution = 0 means no effect, 1 means fully graded
             }
 
             ENDCG

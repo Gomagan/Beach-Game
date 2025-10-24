@@ -83,7 +83,7 @@ Material:
     - _Amplitude: 0.186
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Bump: 0
+    - _Bump: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
