@@ -4,7 +4,7 @@ Project name: Beach Game
 By: 	Kishan Mohanakanth (100921637) 
 Gomagan Prabagar (100944940)
 
-Youtube Video Link: 
+Youtube Video Link: https://www.youtube.com/watch?v=cVFZXgi9QMs
 
 Base: Beach game is a simple and relaxing hide and seek game, where players are stranded on an island and need to find a series of items to win the game. Items in this game are randomized and failure to find the items on time results in losing the game. For players that want to relax there is a free roam mode letting players appreciate the shaders, 3D models, lighting and detail. This game is built in Unity 6 with 3d models made in blender and textured in substance painter. All shaders in this project/game are made using shader graph and shader code focusing on stylized, color grading, and environmental immersion. 
 
