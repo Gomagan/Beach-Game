@@ -50,7 +50,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _DistortionStrength: 1
     - _Metallic: 1
-    - _NoiseScale: 395
+    - _NoiseScale: 255
     - _NormalStrength: 0.138
     - _ReflectionStrength: 2.61
     - _Smoothness: 1
