@@ -48,13 +48,13 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _DistortionStrength: 1
+    - _DistortionStrength: 0.841
     - _Metallic: 1
     - _NoiseScale: 255
     - _NormalStrength: 0.138
     - _ReflectionStrength: 2.61
-    - _Smoothness: 1
+    - _Smoothness: 0.964
     m_Colors:
-    - _GlassColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlassColor: {r: 0.4127209, g: 0.5199133, b: 0.9308176, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
