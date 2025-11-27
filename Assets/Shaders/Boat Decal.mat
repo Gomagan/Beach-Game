@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tree Decal
+  m_Name: Boat Decal
   m_Shader: {fileID: -6465566751694194690, guid: 07e95e0ea775f744e82f991648428e20, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: ad01e31fb92d92c43975f8b19759cb68, type: 3}
+        m_Texture: {fileID: 2800000, guid: 96afea31eaec53d40bff8b1365010686, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -36,6 +36,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Slow: 9.49
+    - _TextureEnabled: 1
     m_Colors:
     - _Color: {r: 1, g: 0.3150943, b: 0.3150943, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}

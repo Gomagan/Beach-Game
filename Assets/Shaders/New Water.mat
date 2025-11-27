@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RocksBumpMapping 1
-  m_Shader: {fileID: -6465566751694194690, guid: 45d40ea869373764f9aacf0e1401c456, type: 3}
+  m_Name: New Water
+  m_Shader: {fileID: -6465566751694194690, guid: 41f10f9b49b3b4a458c21c6a64653165, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -27,14 +27,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BumpTexture:
-        m_Texture: {fileID: 2800000, guid: 53988f7e6436535429de1790d7357460, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: 219a145060d47fa449864af5afc43797, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -45,10 +37,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DiffuseTexture:
-        m_Texture: {fileID: 2800000, guid: cc7e7c34f692baa46940f5d4b627c162, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -63,6 +51,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 5ce952f9168b75d45bb2a9fbe4bb7733, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,14 +63,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: af165134af471e244819de5a47b7a0bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _BumpAmount: 8
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Depth: 0.99
     - _DetailNormalMapScale: 1
+    - _Displacement: 3
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -87,18 +84,27 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Scroll: 496.8
+    - _Shiny: 0.13
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 1.43
     - _SrcBlend: 1
+    - _Strength: 2
+    - _TextureEnabled: 1
     - _UVSec: 0
+    - _Wave_Speed: 2.25
+    - _Wave_Strength: 1.3
     - _ZWrite: 1
     m_Colors:
+    - _Base: {r: 0.6396227, g: 0.98640084, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Deep_Water: {r: 0.36577424, g: 0.6295905, b: 0.6754716, a: 0.84313726}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _NM_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Shallow_Water: {r: 0.3733499, g: 0.85677755, b: 0.87169814, a: 0.41568628}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4594369271894817496
+--- !u!114 &5162018669934122886
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
