@@ -7072,6 +7072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NewIsland
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5c4ab53246d41a44ba31f8e0914d01d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22004,13 +22008,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147921902870}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.17784607, y: 0.7171223, z: 0.6441292, w: 0.19799975}
-  m_LocalPosition: {x: -20.59, y: 5.7, z: -0.56}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -19.443, y: 5.88, z: -0.201}
   m_LocalScale: {x: 65.208305, y: 65.208305, z: 7.551489}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -83.861, y: 149.13, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &543450653524935007
 Transform:
   m_ObjectHideFlags: 0
