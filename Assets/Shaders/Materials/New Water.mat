@@ -73,7 +73,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Depth: 0.99
+    - _Depth: 15
     - _DetailNormalMapScale: 1
     - _Displacement: 3
     - _DstBlend: 0
@@ -84,7 +84,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Scroll: 496.8
+    - _Scroll: 496.44
     - _Shiny: 0.13
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
